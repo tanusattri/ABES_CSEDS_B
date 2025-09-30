@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructuring</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const person={
+            firstname:"abes",
+            lastname: "college",
+            age: 25
+        }
+        // document.getElementById("demo").innerHTML=person.age;
+        // document.getElementById("demo").innerHTML=person.lastname;
+        // document.getElementById("demo").innerHTML=person.firstname;
+        let {age,firstname}= person;
+    </script>
+</body>
+</html>
